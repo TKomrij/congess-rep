@@ -1,0 +1,61 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.representative-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.candidate {
+  flex-basis: 60%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.image-and-info {
+  display: flex;
+  padding-left: 25px;
+}
+
+.candidate-info {
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.committees {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.legislation {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.legislation a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
